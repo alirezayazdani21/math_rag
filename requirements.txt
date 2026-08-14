@@ -1,0 +1,18 @@
+# Core web app
+streamlit>=1.36
+
+# PDF text extraction (fast, handles very large files)
+pymupdf>=1.24
+
+# Local embeddings for retrieval (pulls in torch automatically; no API key needed)
+sentence-transformers>=2.7
+
+numpy>=1.26
+
+# Answer generation (Anthropic Claude)
+anthropic>=0.40
+
+# Word export + equation rendering
+python-docx>=1.1
+matplotlib>=3.8
+pillow>=10.0
